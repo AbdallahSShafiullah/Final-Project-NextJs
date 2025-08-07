@@ -1,6 +1,6 @@
 "use client";
 
-import { Stock, } from "@/types";
+import { Stock } from "@/types";
 import styled from "styled-components";
 import Head from "next/head";
 

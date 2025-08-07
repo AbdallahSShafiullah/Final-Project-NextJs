@@ -7,7 +7,7 @@ import PopStockGallery from "@/components/HomePage/PopStockGallery";
 import Head from "next/head";
 import CountdownTimer from "./timer";
 import StockDay from "./StockDay";
-import { useRef } from "react";
+
 
 
 

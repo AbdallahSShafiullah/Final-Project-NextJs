@@ -2,11 +2,9 @@
 
 import { SimpleStock, } from "@/types";
 import styled from "styled-components";
-import { Stock } from '../../types';
-import { Button } from "@mui/material";
-import { Star } from "@mui/icons-material";
-import getProfile from "@/lib/profileLib/getProfile";
-import { useEffect, useState } from "react";
+
+
+import { useState } from "react";
 
 const GallerySty = styled.div`
     margin: 0 auto;
