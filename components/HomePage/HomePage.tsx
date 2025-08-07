@@ -7,6 +7,7 @@ import PopStockGallery from "@/components/HomePage/PopStockGallery";
 import Head from "next/head";
 import CountdownTimer from "./timer";
 import StockDay from "./StockDay";
+import {Stock} from "@/types";
 
 
 
@@ -87,7 +88,7 @@ export default function HomePage() {
             <GallerySty>
                 <h1 id="heading" >Popular Stocks</h1>
                 <CountdownTimer/>
-                <PopStockGallery stocks={Object.values(popStocks).slice(0, popStocks.length - 1)}/>
+                <PopStockGallery stocks={Object.values(popStocks).slice(0, Object.values(popStocks).length - 1) as Stock[]}/>
             </GallerySty>
         </>
     )
